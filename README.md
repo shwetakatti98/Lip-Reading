@@ -7,7 +7,7 @@ This repo contains project details for ECE 209AS Lip Reading Project. This proje
 2. Amulya Shruthi Tammireddi (UID: 505626283) - ashruthi1797@g.ucla.edu
 
 # Project Description
-The project focuses on lip reading and maximizing efficiency of detection on existing video datasets. The problem statement can be found on
+The project focuses on a comparative analysis on the various lip reading techniques available and maximizing efficiency of detection on existing video datasets. This project will provide a comprehensive guide for the methods currently in use and evaluate the performance.
 
 # Code Base
 All code changes can be found along the path https://github.com/shwetakatti98/Lip-Reading
@@ -23,9 +23,9 @@ Out of the 25 papers studied, we will first start off with the implementation of
 
 
 # Work Done
-1. Literature survey was completed for around 25 papers. Primary architectures that can be chosen for the detection were shortlisted. Also publicly available datasets
- for the same were chosen.
-2.
+1. Literature survey was completed for around 25 papers. Primary architectures that can be chosen for the detection were shortlisted.
+2. Publicly available datasets for the project were chosen based on our literature survey.
 
 # Upcoming Targets
-1.
+1. To implement the models described in the papers that were reviewed.
+2. To compare the performance of each of the models by evaluating the Error Rate metrics on different levels, such as word, character, sentence, etc.

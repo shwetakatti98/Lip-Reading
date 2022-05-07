@@ -27,9 +27,11 @@ In this project, our focus is on the challenges encountered in a lip reading tas
 
 This project can primarily help in the following usecases :
 
-Lip reading mainly helps those people with hearing loss. It aids them in comprehending speech clearly.
-It also helps people work in situations where the background is noisy and assists them in interpreting speech.
-A lot of lip reading softwares used in public places like kiosks and ATMs can help people have contactless interactions and ensure privacy , since it doesn't involve speaking out loud.
+- Lip reading mainly helps those people with hearing loss. It aids them in comprehending speech clearly. <br>
+- It also helps people work in situations where the background is noisy and assists them in interpreting speech.<br>
+- A lot of lip reading softwares used in public places like kiosks and ATMs can help people have contactless interactions and ensure privacy , since it doesn't involve speaking out loud.<br>
+
+By performing a comparative analysis between various models and nets we can maximise efficiency for these usecases. Since we work with multiple datasets and try to finding the best combination with models 
 
 ## 5. Challenges
 

@@ -25,8 +25,11 @@ In this project, our focus is on the challenges encountered in a lip reading tas
 
 ## 4. Potential Impact
 
-If the project is successful, what difference will it make, both technically and broadly?
-Lip reading mainly helps those people with hearing loss. It aids them in comprehending speech clearly. 
+This project can primarily help in the following usecases :
+
+Lip reading mainly helps those people with hearing loss. It aids them in comprehending speech clearly.
+It also helps people work in situations where the background is noisy and assists them in interpreting speech.
+A lot of lip reading softwares used in public places like kiosks and ATMs can help people have contactless interactions and ensure privacy , since it doesn't involve speaking out loud.
 
 ## 5. Challenges
 

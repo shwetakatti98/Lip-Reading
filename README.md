@@ -21,7 +21,7 @@ There are several State of the Art methods available today but there is no speci
 
 ## 3. Novelty & Rationale
 
-In this project, our focus is on the challenges faced in automatic lip reading, especially those concerning dataset and feature extraction. Existing surveys of Visual Speech Recognition(VSR) have only reviewed a few topics and mainly focus on the comparison of various methods and their performance on a specific dataset for a specific task. This project aims to review the various datasets available for each of the current widely used models. For selecting our models we conducted a literature survey to shortlist the primary architectures that can be chosen for the detection.
+In this project, our focus is on the challenges encountered in a lip reading task, especially those concerning dataset and feature extraction. Existing surveys have only reviewed a few topics and mainly focus on the comparison of various methods and their performance on a specific dataset for a specific task. This project aims to review the various datasets available for each of the current widely used models. For selecting our models and datasets we conducted a literature survey to shortlist the primary architectures that can be chosen for the detection.
 
 ## 4. Potential Impact
 
@@ -29,15 +29,14 @@ If the project is successful, what difference will it make, both technically and
 
 ## 5. Challenges
 
-What are the challenges and risks?
+Lip reading is an extremely challenging task by itself. On the other hand, there are variety of factors making test videos different from development data, and consequently overshadowing the accuracy and performance of lip reading systems. We plan to review both Data Challenges and Model Implementation and accuracy challenges through this paper's comparative analysis.
 
 ## 6. Requirements for Success
 
 What skills and resources are necessary to perform the project?
 
 ## 7. Metrics of Success
-
-What are metrics by which you would check for success?
+Various metrics have been utilized to evaluate the performance of Visual Speech recognition systems, including word accuracy and Sentence Accuracy Rate (SAR). We plan on utilizing Error Rate (ER) metrics on different levels such as word, character, etc. as our evaluation criteria.
 
 ## 8. Execution Plan
 
@@ -68,8 +67,7 @@ Lip Reading in Controlled Environments can further be classified as:
 Lip Reading in the Wild: LRW, LRS, LRS2-BBC, LRS3-TED, Multi-View Lip Reading Sentences (MV-LRS), Large-Scale Visual Speech Recognition(LSVSR).
 
 ### 9.c. Software
-
-List softwate that you have identified and plan to use. Provide references (with full citation in the References section below).
+The softwares we plan to use but are not limited to include Python, Jupyter Notebooks and Google Colab.
 
 ## 10. References
 

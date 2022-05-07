@@ -57,7 +57,15 @@ Out of the 20+ papers studied, we selected the following as our base papers to b
 
 ### 9.b. Datasets
 
-List datasets that you have identified and plan to use. Provide references (with full citation in the References section below).
+Lip reading datasets can be classified into two categories: 
+- Lip Reading in Controlled Environments
+- Lip Reading in the Wild
+
+Lip Reading in Controlled Environments can further be classified as:
+- Large Scale datasets: OuluVS, OuluVS2, GRID, MIRACL-VC, AVICAR
+- Small Scale Datsets: DAVID, MODALITY, Tulips1, XM2VTSDB
+
+Lip Reading in the Wild: LRW, LRS, LRS2-BBC, LRS3-TED, Multi-View Lip Reading Sentences (MV-LRS), Large-Scale Visual Speech Recognition(LSVSR).
 
 ### 9.c. Software
 

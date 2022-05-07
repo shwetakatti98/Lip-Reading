@@ -31,22 +31,25 @@ This project can primarily help in the following usecases :
 - It also helps people work in situations where the background is noisy and assists them in interpreting speech.<br>
 - A lot of lip reading softwares used in public places like kiosks and ATMs can help people have contactless interactions and ensure privacy , since it doesn't involve speaking out loud.<br>
 
-By performing a comparative analysis between various models and nets we can maximise efficiency for these usecases. Since we work with multiple datasets and try to finding the best combination with models 
+By performing a comparative analysis between various models and nets we can maximize efficiency for these use cases.
 
 ## 5. Challenges
 
 Lip reading is an extremely challenging task by itself. On the other hand, there are variety of factors making test videos different from development data, and consequently overshadowing the accuracy and performance of lip reading systems. We plan to review both Data Challenges and Model Implementation and accuracy challenges through this paper's comparative analysis.
 
 ## 6. Requirements for Success
-
-What skills and resources are necessary to perform the project?
+To compare the identified models with the evaluation metrics and to find the best performing architecture. 
 
 ## 7. Metrics of Success
 Various metrics have been utilized to evaluate the performance of Visual Speech recognition systems, including word accuracy and Sentence Accuracy Rate (SAR). We plan on utilizing Error Rate (ER) metrics on different levels such as word, character, etc. as our evaluation criteria.
 
 ## 8. Execution Plan
+- Implementing the models
+- Training the models with the chosen datasets
+- Testing the models and evaluating the metrics
+- Comparing the various architectures selected
 
-Describe the key tasks in executing your project, and in case of team project describe how will you partition the tasks.
+The chosen models will be divided between both the team members to implement and train.
 
 ## 9. Related Work
 
@@ -82,4 +85,8 @@ The softwares we plan to use but are not limited to include Python, Jupyter Note
 [3] Afouras, Triantafyllos, Joon Son Chung, and Andrew Zisserman. "The conversation: Deep audio-visual speech enhancement." arXiv preprint arXiv:1804.04121 (2018). <br>
 [4] G. Potamianos, C. Neti, G. Gravier, A. Garg and A. W. Senior, "Recent advances in the automatic recognition of audiovisual speech," in Proceedings of the IEEE, vol. 91, no. 9, pp. 1306-1326, Sept. 2003, doi: 10.1109/JPROC.2003.817150. <br>
 [5] Almajai, I., Cox, S., Harvey, R. and Lan, Y., 2016, March. Improved speaker independent lip reading using speaker adaptive training and deep neural networks. In 2016 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 2722-2726). IEEE. <br>
+[6]Joon Son Chung and Andrew Zisserman. Lip reading in the wild. In Asian conference on computer vision, pages 87–103. Springer, 2016. <br>
+[7] Triantafyllos Afouras, Joon Son Chung, and Andrew Zisserman. Lrs3-ted: a large-scale dataset for visual speech recognition. arXiv preprint arXiv:1809.00496, 2018. <br>
+[8]  Brendan Shillingford, Yannis Assael, Matthew W Hoffman, Thomas Paine, Cían Hughes, Utsav Prabhu, Hank Liao, Hasim Sak, Kanishka Rao, Lorrayne Bennett, et al. Large-scale visual speech recognition. arXiv preprint arXiv:1807.05162, 2018.<br>
+[9] Joon Son Chung and AP Zisserman. Lip reading in profile. 2017 <br>
 

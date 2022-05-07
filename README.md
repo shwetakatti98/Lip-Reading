@@ -26,6 +26,7 @@ In this project, our focus is on the challenges encountered in a lip reading tas
 ## 4. Potential Impact
 
 If the project is successful, what difference will it make, both technically and broadly?
+Lip reading mainly helps those people with hearing loss. It aids them in comprehending speech clearly. 
 
 ## 5. Challenges
 

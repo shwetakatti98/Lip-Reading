@@ -53,8 +53,12 @@ The chosen models will be divided between both the team members to implement and
 
 ## 9. Related Work
 
-### 9.a. Papers
-Out of the 20+ papers studied, we selected the following as our base papers to begin with the comparitive analysis of the best architecture:
+### 9.a. Literature review
+We performed a review of around 20+ papers to understand current models, architectures and corresponding datasets used for visual speech recognition. The link to the literarture review sheet is as follows :
+https://docs.google.com/spreadsheets/d/137hSvHNE2dYTGoN9PBO9bHsO_sFK0LwsScMN_iWpnRs/edit#gid=0
+
+### 9.b. Methodologies chosen
+Out of the 20+ papers studied, we selected the following as our base papers to begin with the comparative analysis of the best architecture:
 | Paper citation| Methodology|
 | --- | --- |
 |Lip reading sentences in the wild [1] |‘Watch, Listen, Attend and Spell’ (WLAS) network:The convolutional network is based on the VGG-M model, followed by LSTM encoder and transducer.|

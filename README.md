@@ -69,11 +69,13 @@ Lip reading datasets can be classified into two categories:
 - Lip Reading in Controlled Environments
 - Lip Reading in the Wild
 
-Lip Reading in Controlled Environments can further be classified as:
-- Large Scale datasets: OuluVS, OuluVS2, GRID, MIRACL-VC, AVICAR
-- Small Scale Datsets: DAVID, MODALITY, Tulips1, XM2VTSDB
-
-Lip Reading in the Wild: LRW, LRS, LRS2-BBC, LRS3-TED, Multi-View Lip Reading Sentences (MV-LRS), Large-Scale Visual Speech Recognition(LSVSR).
+The datasets we are working with include -
+-  Lip Reading in the Wild: LRW
+-  LRS2-BBC
+-  LRS3-TED
+-  Multi-View Lip Reading Sentences (MV-LRS)
+-  Large-Scale Visual Speech Recognition(LSVSR).
+-  GRID
 
 ### 9.c. Software
 The softwares we plan to use but are not limited to include Python, Jupyter Notebooks and Google Colab.

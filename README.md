@@ -67,7 +67,7 @@ Out of the 20+ papers studied, we selected the following as our base papers to b
 |Recent advances in the automatic recognition of audiovisual speech [4] | MLLR, MAP, HMMs |
 |Improved speaker independent lip reading using speaker adaptive training and deep neural networks [5] | Error rates reduced by using Context - Dependent DNN architectures |
 
-### 9.b. Datasets
+### 9.c. Datasets
 
 Lip reading datasets can be classified into two categories: 
 - Lip Reading in Controlled Environments
@@ -81,7 +81,7 @@ The datasets we are working with include -
 -  Large-Scale Visual Speech Recognition(LSVSR).
 -  GRID
 
-### 9.c. Software
+### 9.d. Software
 The softwares we plan to use but are not limited to include Python, Jupyter Notebooks and Google Colab.
 
 ## 10. References

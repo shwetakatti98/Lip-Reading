@@ -1,13 +1,4 @@
 # Lipreading using Temporal Convolutional Networks
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/towards-practical-lipreading-with-distilled/lipreading-on-lip-reading-in-the-wild)](https://paperswithcode.com/sota/lipreading-on-lip-reading-in-the-wild?p=towards-practical-lipreading-with-distilled)
-## Authors
-[Pingchuan Ma](https://mpc001.github.io/), [Brais Martinez](http://braismartinez.org), [Stavros Petridis](https://ibug.doc.ic.ac.uk/people/spetridis), [Maja Pantic](https://ibug.doc.ic.ac.uk/people/mpantic).
-
-## Update
-
-`2021-06-09`: We have released our official training code, see [here](#how-to-train).
-
-`2020-12-08`: We have released the audio-only model which achieves the testing accuracy of 98.5% on LRW.
 
 ## Content
 [Deep Lipreading](#deep-lipreading)
@@ -36,7 +27,6 @@ This is the respository of [Towards Practical Lipreading with Distilled and Effi
 
 <div align="center"><img src="doc/pipeline.png" width="640"/></div>
 
-By using this repository, you can achieve a performance of 87.9% on the LRW dataset. This reporsitory also provides a script for feature extraction.
 
 ### Preprocessing
 
@@ -151,8 +141,6 @@ We plan to include more models in the future. We use a sequence of 29-frames wit
 |snv05x_tcn1x                   |   79.9   |    0.58   |[GoogleDrive](https://bit.ly/38LGQqL) or [BaiduDrive](https://bit.ly/2OgzsdB) (key: devg) |11 |
 
 ## Citation
-
-If you find this code useful in your research, please consider to cite the following papers:
 
 ```bibtex
 @INPROCEEDINGS{ma2020towards,

@@ -76,15 +76,17 @@ Lip reading datasets can be classified into two categories:
 The datasets we are working with include -
 -  Lip Reading in the Wild: LRW
 -  LRS2-BBC
--  LRS3-TED
--  Multi-View Lip Reading Sentences (MV-LRS)
--  Large-Scale Visual Speech Recognition(LSVSR).
--  GRID
+-  GRID Corpus
 
 ### 9.d. Software
 The softwares we plan to use but are not limited to include Python, Jupyter Notebooks and Google Colab.
 
-## 10. References
+## 10. Future Work
+1. We can incorporate more personalized videos into the dataset for testing the models.
+2. We can check how the models performance varies when multiple datasets are combined and used for training.
+3. We can incorporate other evaluation metrics such as CER or SER.
+
+## 11. References
 
 [1] Chung, Joon Son, et al. "Lip reading sentences in the wild." 2017 IEEE conference on computer vision and pattern recognition (CVPR). IEEE, 2017. <br>
 [2] Assael, Yannis M., et al. "Lipnet: End-to-end sentence-level lipreading." arXiv preprint arXiv:1611.01599 (2016). <br>

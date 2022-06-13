@@ -90,7 +90,7 @@ The datasets we are working with include -
 The softwares we plan to use include Python, Jupyter Notebooks and Google Colab.
 
 ## 10. Summary of Models chosen
-Out of the 20+ papers studied, we selected the following as our base papers to begin with the comparative analysis of the best architecture:
+Out of the 20+ papers studied, we selected the following as our base papers to begin with the comparative analysis of the best architecture. The pre-trained weights and training/testing steps are given in the links for each of the model's code (provided under the Readme.md file)
 | Paper citation                | Architecture         | Dataset  | Preprocessing | Pre-trained weights | Word Error Rate|Code Link|
 | -------------------------------------------------- | -----------------------------|----------|---------------|---------------------|----------------| ---------------------------------------------- |
 |Assael, Yannis M., et al. "Lipnet: End-to-end sentence-level lipreading." arXiv preprint arXiv:1611.01599 (2016).|LipNet - CNN+BiGRU+CTC loss | GRID Corpus |D-lib for face detection, data augmentation | Weights available online | 26.3% | https://github.com/shwetakatti98/Lip-Reading/tree/main/LipNet|

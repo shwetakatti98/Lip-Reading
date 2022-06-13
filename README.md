@@ -2,6 +2,7 @@
 
 This repo contains project details for ECE 209AS Lip Reading Project. This project is done under Prof. Mani Srivastava during the Spring Quarter in UCLA (academic year: 2021 - 2022).
 
+
 ## Team Members
 1. Shweta Katti (UID: 505604846) - shwetakatti@g.ucla.edu
 2. Amulya Shruthi Tammireddi (UID: 505626283) - ashruthi1797@g.ucla.edu
@@ -12,12 +13,23 @@ All code changes can be found along the path https://github.com/shwetakatti98/Li
 
 
 ## 1. Motivation & Objective
+Lip reading refers to understanding speech or words based on analysing the speakers lip movements to interpret the content. It is also known as Visual Speech Recognition. 
+<br>
+- The overall goal of this project is to provide a comparative analysis on the various lip-reading techniques available and explore the various architectures.
 
-The aim of this project is to provide a comparative analysis on the various lip reading techniques available and testing efficiency of detection on an existing video dataset i.e. the LRW dataset. This project will provide a comprehensive guide for the methods currently in use and evaluate the performance on a common dataset.
+- Our aim was to test several popular models and architectures available for lip reading and conduct a survey to analyze their performance on a given test dataset.
+
+- We selected a combination of popular and relatively new architectures based on our literature survey and obtained their pre-trained weights for evaluation.
+
+- Utilized various metrics to understand which of the implemented models perform the best given a particular dataset.
 
 ## 2. State of the Art & Its Limitations
 
 There are several State of the Art methods available today but there is no specific guide comparing the available models to select the most accurate based on the dataset and Feature Extraction.
+
+LIMITATIONS:
+- Each of the proposed works available provides results of training and testing on a specific dataset.
+- No survey available till date which tests on a specific dataset and compares the models.
 
 ## 3. Novelty & Rationale
 
@@ -39,13 +51,13 @@ By performing a comparative analysis between various models and nets we can maxi
 
 ## 5. Challenges
 
-Lip reading is an extremely challenging task by itself. On the other hand, there are variety of factors making test videos different from development data, and consequently overshadowing the accuracy and performance of lip reading systems. We plan to review both Data Challenges and Model Implementation and accuracy challenges through this paper's comparative analysis.
+Lip reading is an extremely challenging task by itself. Training the models and testingthem accurately on the same chosen dataset is chalenging. On the other hand, there are variety of factors making test videos different from development data, and consequently overshadowing the accuracy and performance of lip reading systems. 
 
 ## 6. Requirements for Success
-To compare the identified models with the evaluation metrics and to find the best performing architecture on the LRW dataset. 
+To compare the identified models with the evaluation metrics and to find the best performing architecture. 
 
 ## 7. Metrics of Success
-Various metrics have been utilized to evaluate the performance of Visual Speech recognition systems, including word accuracy and Sentence Accuracy Rate (SAR). We plan on utilizing Word Error Rate (ER) metrics as our evaluation criteria.
+Various metrics have been utilized to evaluate the performance of Visual Speech recognition systems, including word accuracy and Sentence Accuracy Rate (SAR). We plan on utilizing Error Rate (ER) metric on the word level (WER) as the evaluation criteria.
 
 ## 8. Execution Plan
 - Implementing the models
@@ -62,7 +74,7 @@ We performed a review of around 20+ papers to understand current models, archite
 https://docs.google.com/spreadsheets/d/137hSvHNE2dYTGoN9PBO9bHsO_sFK0LwsScMN_iWpnRs/edit#gid=0
 
 
-### 9.b. Datasets
+### 9.c. Datasets
 
 Lip reading datasets can be classified into two categories: 
 - Lip Reading in Controlled Environments
@@ -71,20 +83,21 @@ Lip reading datasets can be classified into two categories:
 The datasets we are working with include -
 -  Lip Reading in the Wild: LRW
 -  LRS2-BBC
+-  LRS
 -  GRID Corpus
 
-### 9.c. Software
+### 9.d. Software
 The softwares we plan to use include Python, Jupyter Notebooks and Google Colab.
 
 ## 10. Summary of Models chosen
 Out of the 20+ papers studied, we selected the following as our base papers to begin with the comparative analysis of the best architecture:
-| Paper citation                | Architecture         | Dataset  | Preprocessing | Pre-trained weights | Word Error Rate|
+| Paper citation                | Architecture         | Dataset  | Preprocessing | Pre-trained weights | Word Error Rate|Code Link|
 | -------------------------------------------------- | -----------------------------|----------|---------------|---------------------|----------------|
-|Assael, Yannis M., et al. "Lipnet: End-to-end sentence-level lipreading." arXiv preprint arXiv:1611.01599 (2016).|LipNet - CNN+BiGRU+CTC loss | GRID Corpus |D-lib for face detection, data augmentation | Weights available online | 26.3% |
-|B. Martinez, P. Ma, S. Petridis and M. Pantic, "Lipreading Using Temporal Convolutional Networks," ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2020, pp. 6319-6323, doi: 10.1109/ICASSP40776.2020.9053841| The network consists of a 3D convolution layer, followed by a 18-layer ResNet and a Temporal Convolution Network | LRW BBC dataset | SSD face detection, pre-training and data augmentation | Weights available online | 12% |
-|Stafylakis, Themos & Tzimiropoulos, Georgios. (2017). Combining Residual Networks with LSTMs for Lipreading| Spatiotemporal convolution + ResNet + Bidirectional LSTM + Softmax layer| LRW BBC dataset| Detections of landmarks + cropping of ROI + conversion to grayscale| Trained on the lab GPU| 24.3%|
-| Afouras, Triantafyllos & Chung, Joon Son & Senior, Andrew & Vinyals, Oriol & Zisserman, Andrew. (2018). Deep Audio-visual Speech Recognition. IEEE Transactions on Pattern Analysis and Machine Intelligence. PP. 1-1. 10.1109/TPAMI.2018.2889052. | TM - CTC model - Self-attention-based encoder architecture| LRS2-BBC | SSD face detection, pre-training and data augmentation |Pre-trained weights available online| 57.2% |
-|Chung, Joon Son, et al. "Lip reading sentences in the wild." 2017 IEEE conference on computer vision and pattern recognition (CVPR). IEEE, 2017.|‘Watch, Listen, Attend and Spell’ (WLAS) network:The convolutional network is based on the VGG-M model, followed by LSTM encoder and transducer.|
+|Assael, Yannis M., et al. "Lipnet: End-to-end sentence-level lipreading." arXiv preprint arXiv:1611.01599 (2016).|LipNet - CNN+BiGRU+CTC loss | GRID Corpus |D-lib for face detection, data augmentation | Weights available online | 26.3% | https://github.com/shwetakatti98/Lip-Reading/tree/main/LipNet|
+|B. Martinez, P. Ma, S. Petridis and M. Pantic, "Lipreading Using Temporal Convolutional Networks," ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2020, pp. 6319-6323, doi: 10.1109/ICASSP40776.2020.9053841| The network consists of a 3D convolution layer, followed by a 18-layer ResNet and a Temporal Convolution Network | LRW BBC dataset | SSD face detection, pre-training and data augmentation | Weights available online | 12% | https://github.com/shwetakatti98/Lip-Reading/tree/main/Lipreading_using_Temporal_Convolutional_Networks |
+|Stafylakis, Themos & Tzimiropoulos, Georgios. (2017). Combining Residual Networks with LSTMs for Lipreading| Spatiotemporal convolution + ResNet + Bidirectional LSTM + Softmax layer| LRW BBC dataset| Detections of landmarks + cropping of ROI + conversion to grayscale| Trained on the lab GPU| 24.3%| https://github.com/shwetakatti98/Lip-Reading/tree/main/Lipreading-ResNet |
+| Afouras, Triantafyllos & Chung, Joon Son & Senior, Andrew & Vinyals, Oriol & Zisserman, Andrew. (2018). Deep Audio-visual Speech Recognition. IEEE Transactions on Pattern Analysis and Machine Intelligence. PP. 1-1. 10.1109/TPAMI.2018.2889052. | TM - CTC model - Self-attention-based encoder architecture| LRS2-BBC | SSD face detection, pre-training and data augmentation |Pre-trained weights available online| 57.2% | https://github.com/shwetakatti98/Lip-Reading/tree/main/deep_avsr |
+|Chung, Joon Son, et al. "Lip reading sentences in the wild." 2017 IEEE conference on computer vision and pattern recognition (CVPR). IEEE, 2017.|‘Watch, Listen, Attend and Spell’ (WLAS) network:The convolutional network is based on the VGG-M model, followed by LSTM encoder and transducer.| LRS Dataset | HOG face detection, landmark detection and data augmentation | Must be trained| Could not be trained or tested successfully | https://github.com/shwetakatti98/Lip-Reading/tree/main/WLAS |
 
 ## 11. Future Work
 1. We can incorporate more personalized videos into the dataset for testing the models.

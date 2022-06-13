@@ -13,7 +13,7 @@ All code changes can be found along the path https://github.com/shwetakatti98/Li
 
 ## 1. Motivation & Objective
 
-The aim of this project is to provide a comparative analysis on the various lip reading techniques available and maximizing efficiency of detection on existing video datasets. This project will provide a comprehensive guide for the methods currently in use and evaluate the performance.
+The aim of this project is to provide a comparative analysis on the various lip reading techniques available and testing efficiency of detection on an existing video dataset i.e. the LRW dataset. This project will provide a comprehensive guide for the methods currently in use and evaluate the performance on a common dataset.
 
 ## 2. State of the Art & Its Limitations
 
@@ -42,10 +42,10 @@ By performing a comparative analysis between various models and nets we can maxi
 Lip reading is an extremely challenging task by itself. On the other hand, there are variety of factors making test videos different from development data, and consequently overshadowing the accuracy and performance of lip reading systems. We plan to review both Data Challenges and Model Implementation and accuracy challenges through this paper's comparative analysis.
 
 ## 6. Requirements for Success
-To compare the identified models with the evaluation metrics and to find the best performing architecture. 
+To compare the identified models with the evaluation metrics and to find the best performing architecture on the LRW dataset. 
 
 ## 7. Metrics of Success
-Various metrics have been utilized to evaluate the performance of Visual Speech recognition systems, including word accuracy and Sentence Accuracy Rate (SAR). We plan on utilizing Error Rate (ER) metrics on different levels such as word, character, etc. as our evaluation criteria.
+Various metrics have been utilized to evaluate the performance of Visual Speech recognition systems, including word accuracy and Sentence Accuracy Rate (SAR). We plan on utilizing Word Error Rate (ER) metrics as our evaluation criteria.
 
 ## 8. Execution Plan
 - Implementing the models
@@ -62,7 +62,7 @@ We performed a review of around 20+ papers to understand current models, archite
 https://docs.google.com/spreadsheets/d/137hSvHNE2dYTGoN9PBO9bHsO_sFK0LwsScMN_iWpnRs/edit#gid=0
 
 
-### 9.c. Datasets
+### 9.b. Datasets
 
 Lip reading datasets can be classified into two categories: 
 - Lip Reading in Controlled Environments
@@ -73,7 +73,7 @@ The datasets we are working with include -
 -  LRS2-BBC
 -  GRID Corpus
 
-### 9.d. Software
+### 9.c. Software
 The softwares we plan to use include Python, Jupyter Notebooks and Google Colab.
 
 ## 10. Summary of Models chosen
